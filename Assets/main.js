@@ -1,2 +1,2 @@
 let start = document.getElementsByClassName("start");
-let 
+let x = 0;
