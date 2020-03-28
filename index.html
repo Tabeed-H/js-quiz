@@ -9,7 +9,30 @@
 <body>
     <!--this container contains all the elements of the quiz-->
     <div class="container">
-        Welcome to my quiz
+        <h1>Welcome To The Quiz</h1>
+        <div id="quizContent" class="row quiz">
+            <div class="col-sm-12">
+                <h2 id="quizHeader">Questions</h2>
+            </div>
+        </div>
+        <div id="questions" class="row">
+            <div class="col-sm-6">
+                <a data-id="1" class="btn btn-default answer"></a>
+            </div>
+            <div class="col-sm-6">
+                <a data-id="2" class="btn btn-default answer"></a>
+            </div>
+            <div class="col-sm-6">
+                <a data-id="3" class="btn btn-default answer"></a>
+            </div>
+            <div class="col-sm-6">
+                <a data-id="4" class="btn btn-default answer"></a>
+            </div>
+        </div>
+        <div class="row pageMovement">
+            <div id="btnPrevious" class="col-xs-5 col-sm-4 btn btn-primary">Previous</div>
+            <div id="btnNext" class="col-xs-5 col-sm-4 col-xs-offset-5 btn btn-primary ">Next</div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,4 +1,10 @@
 .container{
     margin: 0 auto;
-    font-size: 32px;
+}
+.col-sm-6{
+    border: solid 1px #D8D8D8;
+    padding: 10px;
+}
+.pageMovement{
+    margin-top: 25px;
 }
